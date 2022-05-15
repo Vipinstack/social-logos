@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    /* background-color: rgb(240, 240,240); */
+}
+
+.Outer_Circle_ly{
+    width: 100px;
+    height: 100px;
+    background-color: #0ec73c;
+    border-radius: 50%;
+    border: 9px solid white;
+}
+
+.Outer_coin_shap{
+    position: absolute;
+    left:4px;
+    bottom: 20px;
+    width:30px;
+    height: 30px;
+    clip-path: polygon(66% 0, 0 74%, 100% 50%);
+    background-color:white;
+
+}
+.Inner_coin_shap{
+    position: absolute;
+    left:20px;
+    bottom: 32px;
+    width:20px;
+    height: 20px;
+    clip-path: polygon(66% 0, 0 74%, 100% 50%);
+    background-color: #0ec73c;
+
+}
